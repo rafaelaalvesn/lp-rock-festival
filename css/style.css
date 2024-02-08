@@ -1,0 +1,130 @@
+/* NAVBAR */
+.navbar-nav .nav-item:hover .nav-link {
+  font-family: "New Rocker", system-ui;
+}
+
+#about p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ABOUT  */
+#about {
+  background-image: url("/img/banner_2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  height: 100vh;
+}
+
+
+
+.main-title {
+  text-shadow: 5px 5px #103150;
+}
+
+#bands,
+#contact {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 18%,
+    rgba(121, 9, 9, 1) 63%,
+    rgba(10, 83, 98, 1) 100%
+  );
+}
+
+/* LED */
+
+.led {
+  font-size: 32px;
+  color: rgb(165, 20, 20);
+  white-space: nowrap;
+  animation: scroll 5s linear infinite;
+  max-width: 50%;
+  font-family: "Russo One", system-ui;
+}
+
+.neon-effect {
+  text-align: center;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #d04848, 0 0 20px #d04848,
+    0 0 25px #d04848, 0 0 30px #d04848, 0 0 35px #d04848;
+}
+
+.border-panel {
+  border: 2px dotted #d04848;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* BANDS */
+
+.fade-in {
+  font-family: "Russo One", system-ui;
+  font-size: 50px;
+}
+
+.fade-in p {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.fade-in p:nth-child(1) {
+  animation-delay: 1s;
+}
+
+.fade-in p:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.fade-in p:nth-child(3) {
+  animation-delay: 3s;
+}
+
+/* TICKETS */
+#tickets{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*  FONTS */
+.f-new-rocker {
+  font-family: "New Rocker", system-ui;
+}
+
+.f-russso-one {
+  font-family: "Russo One", system-ui;
+}
+
+
+
+.headline {
+  text-shadow: 5px 5px #558abb;
+}
+
+
+/* KEYFRAMES */
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Define a animação da frase */
+@keyframes scroll {
+  0% {
+    transform: translateX(100%); /* Posição inicial da frase */
+  }
+  100% {
+    transform: translateX(-100%); /* Posição final da frase */
+  }
+}
