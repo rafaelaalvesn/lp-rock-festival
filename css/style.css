@@ -39,16 +39,47 @@
 .led {
   font-size: 32px;
   color: rgb(165, 20, 20);
-  white-space: nowrap;
-  animation: scroll 5s linear infinite;
-  max-width: 50%;
+  vertical-align: middle;
   font-family: "Russo One", system-ui;
+  
+}
+
+.wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee p {
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
 }
 
 .neon-effect {
   text-align: center;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #d04848, 0 0 20px #d04848,
     0 0 25px #d04848, 0 0 30px #d04848, 0 0 35px #d04848;
+
+  display: -webkit-box;
+
+}
+
+.neon-effect p {
+    display: inline-block;
 }
 
 .border-panel {
@@ -120,12 +151,4 @@
   }
 }
 
-/* Define a animação da frase */
-@keyframes scroll {
-  0% {
-    transform: translateX(100%); /* Posição inicial da frase */
-  }
-  100% {
-    transform: translateX(-100%); /* Posição final da frase */
-  }
-}
+
