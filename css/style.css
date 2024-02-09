@@ -17,8 +17,6 @@
   height: 100vh;
 }
 
-
-
 .main-title {
   text-shadow: 5px 5px #103150;
 }
@@ -41,7 +39,6 @@
   color: rgb(165, 20, 20);
   vertical-align: middle;
   font-family: "Russo One", system-ui;
-  
 }
 
 .wrapper {
@@ -75,11 +72,10 @@
     0 0 25px #d04848, 0 0 30px #d04848, 0 0 35px #d04848;
 
   display: -webkit-box;
-
 }
 
 .neon-effect p {
-    display: inline-block;
+  display: inline-block;
 }
 
 .border-panel {
@@ -113,11 +109,14 @@
 }
 
 /* TICKETS */
-#tickets{
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  }
+#tickets {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 
-
+.card-ticket:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
 /*  FONTS */
 .f-new-rocker {
   font-family: "New Rocker", system-ui;
@@ -127,12 +126,9 @@
   font-family: "Russo One", system-ui;
 }
 
-
-
 .headline {
   text-shadow: 5px 5px #558abb;
 }
-
 
 /* KEYFRAMES */
 
@@ -151,4 +147,8 @@
   }
 }
 
-
+@media screen and (max-width: 767px) {
+  #img-contact-us {
+    display: none; /* ou qualquer outro valor para ocultar a div em dispositivos móveis */
+  }
+}
