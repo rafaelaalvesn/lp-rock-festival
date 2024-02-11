@@ -2,7 +2,7 @@
 
 Welcome to  Rebbel Concert, a fictional rock festival created as part of my portfolio. This project showcases an interactive website built with HTML, CSS, and JavaScript, featuring various functionalities for a virtual rock festival experience.
 
-![Print screen]((https://github.com/rafaelaalvesn/lp-rock-festival/blob/main/img/rebbel%20concert.png?))
+![Print screen](https://github.com/rafaelaalvesn/lp-rock-festival/blob/main/img/rebbel%20concert.png?)
 
 ## Table of Contents
 
