@@ -8,9 +8,6 @@ Welcome to  Rebbel Concert, a fictional rock festival created as part of my port
 
 - [Features](#features)
 - [How to Use](#how-to-use)
-- [Contributions](#contributions)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Features
 
